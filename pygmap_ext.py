@@ -135,7 +135,7 @@ class maps:
 	def drawpaths(self, paths):
 		for path in paths:
 			#print path
-			self.drawPolyline(f,path[:-1], strokeColor = path[-1])
+			self.drawPolyline(path[:-1], strokeColor = path[-1])
 
 	#############################################
 	# # # # # # Low level Map Drawing # # # # # # 
